@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema de arreglos 2</title>
+    <script src="sandbox.js"></script>
+
+    <style>
+        .inputs {
+            display: flex;
+        }
+        
+        button {
+            display: block;
+            margin: 1rem 0;
+        }
+        
+        input[type="number"] {
+            width: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Problema de Arreglos 2</h1>
+    <label for="nFilCol">Cantidad de Filas y Columnas de la Matriz:</label>
+    <input type="number" min=3 id="nFilCol" placeholder="Tamaño Matriz">
+    <button type="button" onclick="obtenerNumFC();">Obtener valor</button>
+    <p class="parrafos"> </p>
+    <button id="matriz" disabled="true" type="button" onclick=obtenerMatriz();>Calcular</button>
+</body>
+
+</html>

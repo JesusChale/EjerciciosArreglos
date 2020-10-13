@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema de arreglos 2</title>
+    <script src="sandbox.js"></script>
+
+    <style>
+        .inputs {
+            display: flex;
+        }
+        
+        button {
+            display: block;
+            margin: 1rem 0;
+        }
+        
+        input[type="number"] {
+            width: 4rem;
+        }
+        
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Problema de Arreglos 4</h1>
+    <label for="nFil1">Cantidad de Filas 1 Matriz:</label>
+    <input type="number" min=2 id="nFil1" placeholder="Filas">
+    <label for="nCol1">Cantidad de Columnas 1 Matriz:</label>
+    <input type="number" min=2 id="nCol1" placeholder="Columnas">
+    <br>
+    <label for="nFil2">Cantidad de Filas 2 Matriz:</label>
+    <input type="number" min=2 id="nFil2" placeholder="Filas">
+    <label for="nCol2">Cantidad de Columnas 2 Matriz:</label>
+    <input type="number" min=2 id="nCol2" placeholder="Columnas">
+    <button type="button" onclick="obtenerNumFC();">Obtener valor</button>
+    <h4>1 Matriz</h4>
+    <h4 id="matriz2H4">2 Matriz</h4>
+    <p class="parrafos"> </p>
+    <button id="matriz" disabled="true" type="button" onclick=mulMatriz();>Calcular</button>
+</body>
+
+</html>
